@@ -16,7 +16,7 @@ def main():
     kalimat = convert_to_sentence(kalimat_normalisasi)
 
     if st.button('Prediksi Kalimat'):
-      predict_text(kalimat)
+        prediction = predict_text(kalimat)
 
 if __name__ == '__main__':
     main()
