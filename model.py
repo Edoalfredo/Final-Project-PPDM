@@ -1,6 +1,6 @@
 from lib import*
 
-model = joblib.load('multinomial_nb_10 percent_model.pkl')
+model = joblib.load('multinomial_nb_100 percent_model.pkl')
 
 def predict_text(input_text):
     reviews_data = pd.read_excel("reviews_Preprocessing.xlsx", usecols=["Label", "Stemming"])
