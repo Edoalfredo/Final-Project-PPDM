@@ -26,7 +26,7 @@ def predict_text(input_text):
     TF_vector_test = cvect.transform(test_data)
 
     # Persentase fitur yang ingin dipilih setelah seleksi (10%)
-    percent = 10
+    percent = 100
 
     # Menghitung jumlah fitur yang diinginkan berdasarkan persentase
     k = int(percent / 100 * TF_vector_train.shape[1])
